@@ -8,7 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "figlet": "^1.2.4",
+    "log-symbols": "^3.0.0",
+    "yargs": "^15.1.0"
+  },
   "bin": {
     "meetup": "./index.js"
   },
