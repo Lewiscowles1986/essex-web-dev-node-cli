@@ -1,0 +1,25 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - '*'
+      - '!master'
+  schedule:
+    - cron: 0 6 * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Restore Packages
+        run: npm ci
+      - name: Install global packages
+        run: |
+          npm install -g eslint
+      - name: Lint files
+        run: eslint index.js lib
