@@ -15,7 +15,7 @@
     "inquirer": "^7.0.4",
     "log-symbols": "^3.0.0",
     "shelljs": "^0.8.5",
-    "yargs": "^15.1.0"
+    "yargs": "^15.4.1"
   },
   "bin": {
     "meetup": "./index.js"
