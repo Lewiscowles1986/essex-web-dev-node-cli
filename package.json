@@ -12,7 +12,7 @@
     "axios": "^0.30.2",
     "chalk": "^3.0.0",
     "figlet": "^1.2.4",
-    "inquirer": "^7.0.4",
+    "inquirer": "^12.9.6",
     "log-symbols": "^3.0.0",
     "shelljs": "^0.8.5",
     "yargs": "^15.4.1"
@@ -21,7 +21,7 @@
     "meetup": "./index.js"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^9.36.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
